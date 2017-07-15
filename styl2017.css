@@ -1,0 +1,60 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,  fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+html {height:100%;} body {height:100%;line-height:1;} ol, ul {list-style: none;} table {border-collapse: collapse;border-spacing: 0;} a {text-decoration:none;}
+a { } em {font-style:italic;} strong {font-weight:bold;letter-spacing: 0.05em;}
+
+body {
+    background-color:#000;
+    color:#fff;
+    line-height:1.25em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:18px;
+    font-weight:light;}
+a {
+    transition:0.3s;
+}
+a:link, a:visited {
+    color:gray;
+}
+a:hover, a:active {
+    color:#ff5555;
+}
+
+.zbiornik {
+    display:block;
+    margin: 0 auto;
+    width:95%;
+}
+
+.klocek {
+    background:#f35;
+    margin-bottom:10px;
+    padding:0px 0px;
+}
+
+.trzy {
+    width:300px;
+}
+.piec {
+    width:600px;
+}
+
+/*
+
+
+h1 {font-size:48px;padding:20px 0px;text-decoration:underline;font-weight:bold;}
+h2 {font-size:22px;padding:5px 0px;}
+h3 {font-size:26px;padding:10px 0px;text-decoration:underline;font-weight:bold;}
+
+.main {display:block;width:100%;max-width:600px;padding:0px 0px 30px;margin:0 auto;}
+.intro {display:block;width:100%;height:100%;}
+.intro img {width:100%;opacity:1;margin-top:100px;}
+.biogram { }
+.bio-linki {font-size:18px;padding:10px 0px 30px;}
+.lista {display:block;padding:0px 0px 10px;}
+.lista p {font-size:18px;}
+
+.klocek {display:block;padding:0px 0px 10px;margin-bottom:1px;}
+.klocek .tytul {font-size:22px;margin-bottom:2px;}
+.klocek .info {font-size:16px;margin-bottom:2px;}
+.lista .linki {font-size:16px;color:dimgrey;}

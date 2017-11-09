@@ -1,58 +1,86 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,  fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 html {height:100%;} body {height:100%;line-height:1;} ol, ul {list-style: none;} table {border-collapse: collapse;border-spacing: 0;} a {text-decoration:none;}
-a { } em {font-style:italic;} strong {font-weight:bold;letter-spacing: 0.05em;}
+em {font-style:italic;} strong {font-weight:bold;letter-spacing: 0.05em;}
 
 body {
-    background-color:#000;
-    color:#fff;
+    background-color:#ff5555;
+    color:#000;
     line-height:1.25em;
     font-family: 'Titillium Web', sans-serif;
-    font-size:18px;
+    font-size:20px;
     font-weight:light;}
 a {
     transition:0.3s;
 }
 a:link, a:visited {
-    color:gray;
+    color:white;
 }
 a:hover, a:active {
-    color:#ff5555;
+    color:black;
+}
+
+.szare {
+  color:grey;
 }
 
 .zbiornik {
     display:block;
     margin: 0 auto;
-    width:95%;
+    padding:0 0 200px;
+    width:700px;
 }
 
-.klocek {
-    background:#f35;
-    margin-bottom:10px;
+h1 {
+  font-size:42px;
+  font-weight:bold;
+  padding:20px 0px;
+}
+h2 {
+  font-size:28px;
+  font-weight: bold;
+  margin:50px 0 10px;  
+}
+h3 {
+  font-weight:bold;
+
+}
+
+.biogram p {
+  padding:0px 0px 20px;
+}
+
+.rzecz {
+    margin-bottom:40px;
     padding:0px 0px;
 }
 
-.trzy {
-    width:300px;
-}
-.piec {
-    width:600px;
+.element {
+  margin:20px 0;
 }
 
+/* Logo nagłówkowe */
+.literka {
+  display: block;
+  font-size:420px;
+  height:100%;
+  text-align: center;
+}
+.literka p {
+  padding-top:300px;
+}
 
-h1 {font-size:48px;padding:20px 0px;text-decoration:underline;font-weight:bold;}
-h2 {font-size:22px;padding:5px 0px;}
-h3 {font-size:26px;padding:10px 0px;text-decoration:underline;font-weight:bold;}
-
-.main {display:block;width:100%;max-width:600px;padding:0px 0px 30px;margin:0 auto;}
-.intro {display:block;width:100%;height:100%;}
-.intro img {width:100%;opacity:1;margin-top:100px;}
-.biogram { }
-.bio-linki {font-size:18px;padding:10px 0px 30px;}
-.lista {display:block;padding:0px 0px 10px;}
-.lista p {font-size:18px;}
-
-.klocek {display:block;padding:0px 0px 10px;margin-bottom:1px;}
-.klocek .tytul {font-size:22px;margin-bottom:2px;}
-.klocek .info {font-size:16px;margin-bottom:2px;}
-.lista .linki {font-size:16px;color:dimgrey;}
+/* Boksik promocyjny */
+.gwiazdka {
+  background: white;
+  padding: 30px 20px;
+}
+.gwiazdka a:link, .gwiazdka a:visited {
+  color:#ff5555;
+}
+.gwiazdka a:hover, .gwiazdka a:active {
+  color:#000;
+}
+.gwiazdka img {
+  box-shadow: 10px 10px #000;
+}

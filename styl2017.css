@@ -35,22 +35,23 @@ h1 {
   font-size:42px;
   font-weight:bold;
   padding:20px 0px;
+  text-decoration: underline;
 }
 h2 {
   font-size:28px;
   font-weight: bold;
-  margin:50px 0 10px;  
+  margin:50px 0 10px;
+    text-decoration: underline;
 }
 h3 {
   font-weight:bold;
-
 }
 
 .biogram p {
   padding:0px 0px 20px;
 }
 
-.rzecz {
+.dzial {
     margin-bottom:40px;
     padding:0px 0px;
 }
@@ -58,6 +59,15 @@ h3 {
 .element {
   margin:20px 0;
 }
+
+.element.mniejszy {
+  font-size:16px;
+  margin:5px 0;
+}
+
+
+
+
 
 /* Logo nagłówkowe */
 .literka {
@@ -73,7 +83,7 @@ h3 {
 /* Boksik promocyjny */
 .gwiazdka {
   background: white;
-  padding: 30px 20px;
+  padding: 50px 20px;
 }
 .gwiazdka a:link, .gwiazdka a:visited {
   color:#ff5555;

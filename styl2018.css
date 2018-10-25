@@ -1,96 +1,32 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,  fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
-html {height:100%;} body {height:100%;line-height:1;} ol, ul {list-style: none;} table {border-collapse: collapse;border-spacing: 0;} a {text-decoration:none;}
-em {font-style:italic;} strong {font-weight:bold;letter-spacing: 0.05em;}
-
 body {
-    background-color:#ff5555;
-    color:#000;
-    line-height:1.25em;
-    font-family: 'Titillium Web', sans-serif;
-    font-size:20px;
-    font-weight:light;}
-a {
-    transition:0.3s;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.3em;
 }
-a:link, a:visited {
-    color:white;
-}
-a:hover, a:active {
-    color:black;
-}
-
-.szare {
-  color:grey;
-}
-
-.zbiornik {
-    display:block;
-    margin: 0 auto;
-    padding:0 0 200px;
-    width:700px;
-}
-
-h1 {
-  font-size:42px;
-  font-weight:bold;
-  padding:20px 0px;
-  text-decoration: underline;
-}
-h2 {
-  font-size:28px;
-  font-weight: bold;
-  margin:50px 0 10px;
-    text-decoration: underline;
-}
-h3 {
-  font-weight:bold;
-}
-
-.biogram p {
-  padding:0px 0px 20px;
-}
-
 .dzial {
-    margin-bottom:40px;
-    padding:0px 0px;
+  margin:0 auto;
+  max-width:400px;
 }
-
-.element {
-  margin:20px 0;
+.dydaktyka {
+  background:#51ff0d;
+  display:block;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-
-.element.mniejszy {
-  font-size:16px;
-  margin:5px 0;
+.intro { 
+  margin-bottom: 50px;
+  margin-top: 150px;
 }
-
-
-
-
-
-/* Logo nagłówkowe */
-.literka {
-  display: block;
-  font-size:420px;
-  height:50%;
-  text-align: center;
+.kolo {
+  font-size:5em;
 }
-.literka p {
-  padding-top:300px;
+.strzala {
+  font-size: 3em;
+  letter-spacing: -0.2em;
+  margin-left: -1.5em;
+  position: relative;
 }
-
-/* Boksik promocyjny */
-.gwiazdka {
-  background: white;
-  padding: 50px 20px;
-}
-.gwiazdka a:link, .gwiazdka a:visited {
-  color:#ff5555;
-}
-.gwiazdka a:hover, .gwiazdka a:active {
-  color:#000;
-}
-.gwiazdka img {
-  box-shadow: 10px 10px #000;
+p {
+  margin:0 0 10px;
 }

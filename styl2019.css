@@ -1,0 +1,30 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size:1.2em;
+  line-height: 1.3em;
+}
+h1 {
+  line-height: 0.88em;
+}
+.grid-item {
+  width:300px;
+}
+.intro {
+  margin-top: 100px;
+}
+.kolo {
+  padding-top:50px;
+  font-size:10em;
+}
+.strzala {
+  font-size: 5.5em;
+  letter-spacing: -0.2em;
+  margin-left: -1.6em;
+  position: relative;
+}
+p {
+  margin:0 0 10px;
+}
+img {
+  max-width: 400px;
+}
